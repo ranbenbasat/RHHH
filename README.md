@@ -50,6 +50,5 @@ RHHH run on 2D-byte level hierarchies (H=25). 20M packets, 1000 counters per hie
 10-RHHH run on 2D-byte level hierarchies (H=25). 20M packets, 1000 counters per hierarchy node, 100K packets threshold.
 20000000 pairs took 0.417347s (0.417088s-0.417606s) 177 HHHs
 8 accErrors 2 covErrors 161 exact hhhs
-
 ------------------------------------------------------------------------------------------------------------------------
 /******************************************************************************************************************************/
