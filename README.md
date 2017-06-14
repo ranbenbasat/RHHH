@@ -29,7 +29,6 @@ This translates to 47.92 Million Packets per Second (Mpps) with a confidence int
 
 Below is the output of "runAlgorithms", as measured on our server:
 
-------------------------------------------------------------------------------------------------------------------------
 
 make: Nothing to be done for `all'.
 RHHH run on 1D-byte level hierarchies (H=5). 20M packets, 1000 counters per hierarchy node, 100K packets threshold.
@@ -49,6 +48,4 @@ RHHH run on 2D-byte level hierarchies (H=25). 20M packets, 1000 counters per hie
 1 accErrors 3 covErrors 161 exact hhhs
 10-RHHH run on 2D-byte level hierarchies (H=25). 20M packets, 1000 counters per hierarchy node, 100K packets threshold.
 20000000 pairs took 0.417347s (0.417088s-0.417606s) 177 HHHs
-8 accErrors 2 covErrors 161 exact hhhs 
-
-------------------------------------------------------------------------------------------------------------------------
+8 accErrors 2 covErrors 161 exact hhhs
