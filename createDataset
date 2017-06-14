@@ -1,0 +1,12 @@
+#!/bin/bash
+FILEURL=https://data.caida.org/datasets/passive-2016/equinix-chicago/20160121-130000.UTC/equinix-chicago.dirA.20160121-125911.UTC.anon.pcap.gz
+#ATTENTION: THIS SCRIPT WILL FAIL WITHOUT A USERNAME AND PASSWORD. PLEASE VISIT www.caida.org.
+
+#USERPASS=username:password #Enter your credentials!
+
+curl -u $USERPASS $FILEURL > data.pcap.gz
+
+#data needs to be made human-readable (takes time)
+gunzip -f data.pcap.gz
+tcpdump -q -n -t -r data.pcap | grep IP | sed 's/\./ /g' | awk '{print $2" "$3" "$4" "$5"\t"$8" "$9" "$10" "$11}' | grep -v "[a-z:]" > trace 2> /dev/null
+rm data.pcap #save space
