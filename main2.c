@@ -123,7 +123,7 @@ int main(int argc, char * argv[]) {
 		for (j=0; j < NRRUNS; ++j){
 			//printf("j = %d\n", j);
 #ifdef RANDHHH
-		init((double)1/(double)counters, (double)1/(double)counters, insertProb);
+		init((double)1/(double)counters, insertProb);
 #else
 		init((double)1/(double)counters);
 #endif

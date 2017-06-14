@@ -35,7 +35,7 @@ extern LCLitem_t masks[NUM_COUNTERS];
 
 //initialise
 #ifdef RANDHHH
-	void init(double SSepsilon, double samplingEpsilon, double prob);
+	void init(double SSepsilon, double prob);
 #else
 	void init(double epsilon);
 #endif

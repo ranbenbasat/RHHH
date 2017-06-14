@@ -46,7 +46,7 @@ double twototheminus(int k) {
 }
 
 //initialise
-void init(double SSepsilon, double samplingEpsilon, double prob) {
+void init(double SSepsilon, double prob) {
 	int i;
 	SSepsval = SSepsilon;
 	srand(SEED);
