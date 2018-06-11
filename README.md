@@ -50,3 +50,6 @@ RHHH run on 2D-byte level hierarchies (H=25). 20M packets, 1000 counters per hie
 20000000 pairs took 0.417347s (0.417088s-0.417606s) 177 HHHs
 8 accErrors 2 covErrors 161 exact hhhs
 ```
+
+
+June 2018: Tommy Fan and Austin Poore from Stanford did an awesome job reproducing some of the results of the paper. They partially implemented the algorithms and provide additional scripts for running, analyzing, and plotting the data. See their repo here: https://github.com/lechengfan/RHHH
